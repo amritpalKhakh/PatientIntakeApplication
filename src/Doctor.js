@@ -26,7 +26,7 @@ export class Doctor extends Component {
         const {docs} = this.state;
         return (
             <div>
-                <Table className="mt-4" stripped bordered hover-size="sm">
+                <Table className="mt-4" striped bordered hover-size="sm">
                     <thead>
                         <tr>
                             <th>Doctor Id</th>
